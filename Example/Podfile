@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZZCCategory_Example' do
+  pod 'ZZCCategory', :path => '../'
+
+  target 'ZZCCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
