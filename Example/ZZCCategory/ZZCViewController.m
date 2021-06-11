@@ -7,6 +7,7 @@
 //
 
 #import "ZZCViewController.h"
+#import "NSString+ZZCExtension.h"
 
 @interface ZZCViewController ()
 
@@ -20,6 +21,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *a = @"https://t.bd.cn/td?title=测试&img=http://f.bd.cn/20_05(fn).png?w=3&h=4";
+    
+    NSString *bb = [a URLEncode];
+    NSLog(@"%@", bb);
+    NSString *aa = [bb URLDecode];
+    NSLog(@"%@", aa);
+
+    
     _queue = dispatch_queue_create("queue.com", DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(_queue, ^{
         [self startTimer];

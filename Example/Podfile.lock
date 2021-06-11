@@ -1,5 +1,5 @@
 PODS:
-  - ZZCCategory (0.1.0)
+  - ZZCCategory (0.3.0)
 
 DEPENDENCIES:
   - ZZCCategory (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZCCategory: 510bdb2a084beff835ae1ed8990b9db611fd473a
+  ZZCCategory: 59871f25bfc4fbdc59b615b1b4d0ecd21476c168
 
 PODFILE CHECKSUM: b939c3b203d5b46de69b62261ce97c3eb4eda07e
 
