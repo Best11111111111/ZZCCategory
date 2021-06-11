@@ -22,7 +22,7 @@ pod 'ZZCCategory'
 
 ## Author
 
-1414818015@qq.com, zhengzhicheng@wandu.onaliyun.com
+zhengzhicheng, 1414818015@qq.com
 
 ## License
 
